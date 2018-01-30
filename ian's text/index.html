@@ -1,0 +1,151 @@
+<html> 
+  <head>
+    <title> carpet and tile cleaning </title>
+     <link type="text/css" rel="stylesheet" href="main.css"/>
+     <script type="text/javascript">
+       function banner(){ 
+       var text = confirm("do you whan't to go to maps?"); 
+       return text; 
+       }
+
+      function answer(){
+        var radio = document.getElementsByName("trivia"); 
+        var selection = false; 
+        var message = "";
+
+        for( var i = 0; i < radio.length; i++) { 
+        if(radio[i].value == "steming" && radio[i].checked == true) { 
+          selection = true; 
+           } //end if statement 
+         } //nd for loop
+         if(selection == true) {
+          message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+         } else { 
+          message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+         }
+          document.getElementById("response").innerHTML = message;
+      }
+
+
+
+
+
+     </script>
+  </head> 
+    <body class="background">
+    	<a href="https://www.google.com/maps" onclick="return banner()"><header>hello and wellcome</header></a>
+      <nav>
+       <ul id="navmenu">
+         <li class="navitum"> <a href="index.html"> Home </a> </li>
+         <li class="navitum"> <a href="album.html"> album </a> </li>
+         <li class="navitum"> <a href="prices and sceguling.html"> prices and sceguling </a> </li>
+       </ul>
+      </nav>
+       <center><h4>floor cleaning</h4></center>
+         <p>We <u><i>clean carpets</i> and tile</u> and do our best at it. We have done some amazing jobs at it. It will make your day to call <b>D&K</b> cleaning serveses to clean your floors.</p>
+
+      <div class="rightside">
+
+         <video width="200" height="220" controls id="removinglipstick">
+           <source src="Removing Red Lipstick 3-25-17.mp4" type="video/mp4">
+         </video>
+            <br/>
+         <img src="redstainbefore.jpg.jpg">
+         <img src="redstainafter.jpg.jpg">
+
+        </div>
+   <div class="leftside">     
+     <div class="wrap-list">    
+       <ol>
+       	<li class="list">tile and grout.</li>
+        <li class="list">carpet</li>
+       	<li class="list">rugs and mats</li>
+       </ol>
+     </div>  
+     <audio width="400" height="220" controls>
+       <source src="VACUUMN2.WAV" type="audio/mpeg">
+     </audio>
+
+       <div id="calander">
+
+         <h3>Call to schedule, to get your carpets cleaned.</h3>
+         <h4>We can't work on sunday</h4> 
+         <div id="calander"> 
+         <div class="month"> 
+           <ul>
+             <li class="prev">&#10094;</li>
+             <li class="next">&#10095;</li>
+             <li>
+             february<br>
+            <span style="font-size:18px">2018</span>
+            </li>
+           </ul>
+         </div>
+
+           <ul class="weekdays">
+             <li>Mo</li>
+             <li>Tu</li>
+             <li>We</li>
+             <li>Th</li>
+             <li>Fr</li>
+             <li>Sa</li>
+             <li>Su</li>
+           </ul>
+
+           <ul class="days"> 
+             <li> </li>
+             <li> </li>
+             <li> </li>
+             <li> <span class="active">1</span></li>
+             <li>2</li>
+             <li>3</li>
+             <li>4</li>
+             <li>5</li>
+             <li>6</li>
+             <li>7</li>
+             <li>8</li>
+             <li>9</li>
+             <li>10</li>
+             <li>11</li>
+             <li>12</li>
+             <li>13</li>
+             <li>14</li>
+             <li>15</li>
+             <li>16</li>
+             <li>17</li>
+             <li>18</li>
+             <li>19</li>
+             <li>20</li>
+             <li>21</li>
+             <li>22</li>
+             <li>23</li>
+             <li>24</li>
+             <li>25</li>
+             <li>26</li>
+             <li>27</li>
+             <li>28</li>
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+            </ul>
+          </div>
+         </div> 
+         <div class="wrap">
+           <h1>your opinion</h1>
+            <p class="p2">how do we get of red<span class="se">stains</span>?</p>
+             <form>
+               <div id="response"></div>
+               <input type="radio" name="trivia" value="steming">steming<br>
+               <input type="radio"  name="trivia" value="shampoing">shampoing<br>
+               <input type="radio"  name="trivia" value="you don't">you don't<br>
+               <input type="radio"  name="trivia" value="the same wy that you do every thing else">the same way that you do every thing else<br>
+               <input type="button" value="submit" id="button" onclick="answer()">
+             </form>
+         </div>
+       </div>  
+           <hr>
+           <center>Made by Ian Black</center><a href="http://www.coolmath-games.com/">my favorite website</a>      
+       <footer>have us come clean again</footer> 
+    </body> 
+</html>

@@ -1,0 +1,203 @@
+p{
+  color:gold;
+  font-size:25px;	
+}
+.list{
+     color:#00ff00;
+     font-size:25px;
+}
+.p2{
+   color:blue;
+   font-size:20px;
+}
+.background{
+	     background-color:#b3b3b3;
+}
+#button{
+	width:65px;
+	height:25px;
+	background-color:blue;
+	border-radius:30px;
+}
+header{
+    height:;
+    width:;
+    border:30px blue;
+    background-color:#e6e6e6;
+    color:#cc0000;
+    margin-bottom:25px;
+}
+footer{
+    height:;
+    width:;
+    border:30px;
+    background-color:#e6e6e6;
+    color:#cc0000;
+}
+.wrap{
+   border:25px double #e6e600;
+   height:300px;
+   width:450px;
+   padding-left:50px;
+}
+.wrap-list{
+   border:25px double #e6e600;
+   height:200px;
+   width:200px;	
+}
+.se{
+	font-size:22px;
+	color:#24478f;
+}
+#removinglipstick{
+  margin-left:;
+}
+.table{
+    position: relative;
+  left:45%;
+}
+.navitum{
+  list-style-type: none;
+  display: inline;
+  padding-right: 80px;
+ }
+#navmenu{
+  height: 100px;
+  width: 450px;
+  margin: auto;
+  background-color:#ff751a;
+  border: 15px double black;
+}
+a:link{
+color: #006600;
+}
+a:visited{
+  color: #33cc00;
+}
+a:hover{
+ color: #ffffff;
+}
+a:active{
+  color: #000099;
+}
+.rightside{
+  float: right;
+  width: 30%;
+  border: 25px double black;
+}
+#calander{
+  width: 70%;
+}
+.leftside{
+  width: 60%;
+  border: 25px double black;
+}
+
+
+/*calender*/
+ul {list-style-type: none;}
+
+/* Month header */
+.month {
+    padding: 70px 25px;
+    width: 91%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:#777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+
+/*position.html css*/
+
+#one{
+  height:150px;
+  width:150px;
+  background-color:gold;
+  display:inline-block;
+  position: absolute;
+  z-index:2; 
+}
+#two{
+  height:150px;
+  width:150px;
+  background-color:green;
+  display:inline-block;
+  position: absolute; 
+  z-index:1;
+  position: relative;
+  top:850px;
+  left:50%;
+}
+#tree{
+  height:150px;
+  width:150px;
+  background-color:red;
+  display:inline-block;
+  position: fixed;
+  left:25%; 
+}
+#pigf{
+   height:2048px;
+}
